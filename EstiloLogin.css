@@ -1,9 +1,16 @@
+.cabecalho{
+    text-align: center;
+    color:white;
+    font-size: 30px;
+  
+}
+
 body{
     background-image:linear-gradient(to right, black,red);
     font-family: "Quicksand",sans-serif;
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: 600;
-    color: gray
+    color: white
     
 }
 
@@ -48,13 +55,23 @@ legend{
  
  .botaoEnviar {
     font-family: "Quicksand", sans-serif;
-    font-size: 25px;
+    font-size: 15px;
     font-weight: bold;
     padding: 10px;
     color: white;
-    background-image:linear-gradient(to left, black,red);
-
-
-
+    background-image:linear-gradient(to left, rgb(0, 0, 0),rgb(255, 0, 0));
+    border:none;
+    
+ }
+ .botaoEnviar:hover{
+    color: black;
+    transform: scale(1.1); 
+ }
+ footer{
+    position: fixed;
+    bottom:0;
+    left:0;
+    font-size: 12px;
+    
  }
 
